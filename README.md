@@ -1,2 +1,3 @@
 # SVG-animations
-moving circle fun program 
+<link href="https://css-tricks.com/svg-properties-and-css/"
+      rel="stylesheet">
