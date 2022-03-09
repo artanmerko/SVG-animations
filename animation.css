@@ -1,0 +1,72 @@
+:root {
+    --color-1: #6e40aa;
+    --color-2: #4c6edb;
+    --color-3: #24aad8;
+    --color-4: #1ac7c2;
+    --color-5: #4ade1d;
+    --color-6: #de1d9e;
+    --color-7: #ebdb50;
+    --color-8: #90ee90;
+    --color-9: #de1d47;
+
+
+  }
+  .shape {
+    cy: 50;
+    r: 20;
+    animation: moveCircle 1250ms ease-in-out both infinite;
+  }
+  .shape:nth-child(1) {
+    cx: 60;
+    fill: var(--color-1);
+  }
+  .shape:nth-child(2) {
+    cx: 120;
+    fill: var(--color-2);
+    animation-delay: 100ms;
+  }
+  .shape:nth-child(3) {
+    cx: 180;
+    fill: var(--color-3);
+    animation-delay: 200ms;
+  }
+  .shape:nth-child(4) {
+    cx: 240;
+    fill: var(--color-4);
+    animation-delay: 300ms;
+  }
+  
+  .shape:nth-child(5) {
+    cx: 300;
+    fill: var(--color-5);
+    animation-delay: 400ms;
+  }
+  .shape:nth-child(6) {
+    cx: 360;
+    fill: var(--color-6);
+    animation-delay: 400ms;
+  }
+  .shape:nth-child(7) {
+    cx: 420;
+    fill: var(--color-7);
+    animation-delay: 400ms;
+  }
+  .shape:nth-child(8) {
+    cx: 480;
+    fill: var(--color-8);
+    animation-delay: 400ms;
+  }
+  .shape:nth-child(9) {
+    cx: 540;
+    fill: var(--color-9);
+    animation-delay: 400ms;
+  }
+
+
+
+  @keyframes moveCircle {
+    50% {
+      cy: 150;
+      r: 13;
+    }
+  }
